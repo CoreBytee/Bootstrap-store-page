@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Store</title>
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Custom -->
+        <link rel="stylesheet" href="./index.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row bg-brand">
+                <div class="col-md-6 nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark">
+                            <i class="bi bi-house-door-fill"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light">
+                            <i class="bi bi-person-fill"></i>
+                            My Account
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light">
+                            <i class="bi bi-cart-fill"></i>
+                            Shopping Cart
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light">
+                            <i class="bi bi-bag-check-fill"></i>
+                            Checkout
+                        </a>
+                    </li>
+                </div>
+                <div class="col-md-6 nav nav-tabs justify-content-end">
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="bi bi-translate"></i>
+                            English
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="bi bi-coin"></i>
+                            Dollar
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="height: 100px;">
+                <div class="col-md-6 d-flex align-items-center">
+                    <h1 class="display-5">
+                        <span class="fw-bold text-brand">LO</span><span>GO</span>
+                    </h1>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-end">
+                    <a class="fw-bold text-brand text-decoration-none">Login</a>
+                    <a>or</a>
+                    <a class="fw-bold text-brand text-decoration-none">Create account</a>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills bg-lighter-brand p-1 flex flex-direction-row"
+                    style="--bs-nav-pills-link-active-bg: var(--brand-color)">
+                    <li class="nav-item">
+                        <a class="nav-link text-white active" aria-current="page" href="#">SMARTPHONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-brand" href="#">DESKTOPS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-brand" href="#">LAPTOPS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-brand" href="#">ACCESSOIRES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-brand" href="#">NETWORKING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-brand" href="#">SOFTWARE</a>
+                    </li>
+                    <li class="input-group rounded nav-item">
+                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                            aria-describedby="search-addon" />
+                        <span class="input-group-text border-0 bg-brand" id="search-addon">
+                            <i class="bi bi-search"></i>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-md-12 bg-lighter-brand text-white p-2">
+                    <div class="col-md-12 bg-brand p-1">
+                        <a>Home / Desktop</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9 bg-lighter-brand text-white p-2 d-flex flex-row flex-wrap" style="height: 200px;">
+                    <div class="col-md-9 bg-brand p-3 mb-3"
+                        style="background: linear-gradient(164deg, rgba(126,255,111,1) 0%, rgba(255,253,102,1) 69%, rgba(105,229,255,1) 100%);">
+                        <h1 class="fw-bold">LATEST PRODUCTS ON THE MARKET</h1>
+                    </div>
+                    <div class="col-md-3 bg-brand p-3 mb-3">
+                        <h1 class="fw-bold">UP TO 50% OFF</h1>
+                    </div>
+                    <div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div><div class="col-md-4 p-1 bg-lighter-brand d-flex justify-content-center flex-column">
+                        <img class="mx-auto d-block mb-1" style="width: 100%;"
+                            src="https://randomwordgenerator.com/img/picture-generator/55e3d3464a57b10ff3d8992cc12c30771037dbf85254794e7d2b7ed79545_640.jpg"
+                            alt="">
+                        <span class="badge bg-brand">Bike for sale</span>
+                        <div class="d-flex w-100 justify-content-center mt-1 gap-1 h-5">
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                            <span class="badge bg-brand"><i class="bi bi-star-fill"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 pt-1">
+                    <div class="fs-6 bg-brand text-white p-1">
+                        <a>CATEGORY</a>
+                    </div>
+                    <div>
+                        <p class="mb-0"><i class="bi bi-dot"></i>SMARTPHONES</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>DESKTOP</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>LAPTOP</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>ACCESSOIRES</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>NETWORKING</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>SOFTWARE</p>
+                    </div>
+                    <div class="fs-6 bg-brand text-white p-1">
+                        <a>BY BRAND</a>
+                    </div>
+                    <div>
+                        <p class="mb-0"><i class="bi bi-dot"></i>HP</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>DELL</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>APPLE</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>ASUS</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>SAMSUNG</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>MICROSOFT</p>
+                    </div>
+                    <div class="fs-6 bg-brand text-white p-1">
+                        <a>BY PRICE</a>
+                    </div>
+                    <div>
+                        <p class="mb-0"><i class="bi bi-dot"></i>APPLE</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>DELL</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>APPLE</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>ASUS</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>SAMSUNG</p>
+                        <p class="mb-0"><i class="bi bi-dot"></i>MICROSOFT</p>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center bg-secondary" style="height: 100vh; width: 100%;">
+                        <p class="fw-bold fs-1">AD SPACE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 bg-brand p-2 d-flex justify-content-center gap-3" style="height: 95px;">
+                    <div class="d-flex flex-row bg-light-brand p-2 rounded gap-2">
+                        <i class="bi bi-send fs-1 text-white"></i>
+                        <div class="d-flex flex-column">
+                            <h4 class="text-white">First shopping</h4>
+                            <h6>Get you everywhere</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row bg-light-brand p-2 rounded gap-2">
+                        <i class="bi bi-lock fs-1 text-white"></i>
+                        <div class="d-flex flex-column">
+                            <h4 class="text-white">Secure store</h4>
+                            <h6>100% secure store</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row bg-light-brand p-2 rounded gap-2">
+                        <i class="bi bi-clock fs-1 text-white"></i>
+                        <div class="d-flex flex-column">
+                            <h4 class="text-white">Save time</h4>
+                            <h6>Save your time</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row bg-light-brand p-2 rounded gap-2">
+                        <i class="bi bi-cart fs-1 text-white"></i>
+                        <div class="d-flex flex-column">
+                            <h4 class="text-white">Pay on delivery</h4>
+                            <h6>Get you everywhere</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row flex justify-content-center mt-5">
+                <div class="col-md-3">
+                    <h1 class="rounded bg-brand p-3 text-white">Our Brand</h1>
+                </div>
+            </div>
+            <div class="row flex justify-content-center mt-2 gap-3">
+                <div class="col-md-2 bg-white border rounded">
+                    <h1 class="p-3 text-black">Brand</h1>
+                </div>
+                <div class="col-md-2 bg-white border rounded">
+                    <h1 class="p-3 text-black">Brand</h1>
+                </div>
+                <div class="col-md-2 bg-white border rounded">
+                    <h1 class="p-3 text-black">Brand</h1>
+                </div>
+                <div class="col-md-2 bg-white border rounded">
+                    <h1 class="p-3 text-black">Brand</h1>
+                </div>
+            </div>
+            <div class="row mt-5 pt-4" style="background-color: #d4e1ef;">
+                <div class="col-md-3">
+                    <h5 class="text-brand">INFORMATION</h5>
+                    <hr class="mt-0">
+                    <p class="mb-0"><i class="bi bi-dot"></i>ABOUT US</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>CUSTOMER SERVICE</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>PRIVACY POLICY</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>SITE MAP</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>CONTACT</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-brand">WHY BUY FROM US</h5>
+                    <hr class="mt-0">
+                    <p class="mb-0"><i class="bi bi-dot"></i>ABOUT US</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>SHIPPING RETURNS</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>INTERNATIONAL SHIPPING</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>AFFILIATES</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>GROUP SALES</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-brand">MY ACCOUNT</h5>
+                    <hr class="mt-0">
+                    <p class="mb-0"><i class="bi bi-dot"></i>SIGN IN</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>VIEW CART</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>WISHLIST</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>TRACK ORDER</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>HELP</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-brand">MY ACCOUNT</h5>
+                    <hr class="mt-0">
+                    <p class="mb-0"><i class="bi bi-dot"></i>LOCATION</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>PHONE</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>PHONE</p>
+                    <p class="mb-0"><i class="bi bi-dot"></i>EMAIL</p>
+                </div>
+            </div>
+            <div class="row d-flex flex-row justify-content-center" style="height: 60px; background-color: #c5d2e0;">
+                <div class="col-md-5 d-flex flex-row m-2 gap-1 justify-content-center" style="box-sizing: border-box;">
+                    <span class="rounded bg-brand p-1 text-white">WE ACCEPT</span>
+                    <span class="rounded bg-white p-1 text-brand">Payment</span>
+                    <span class="rounded bg-white p-1 text-brand">Payment</span>
+                    <span class="rounded bg-white p-1 text-brand">Payment</span>
+                </div>
+                <div class="col-md-5 d-flex flex-row m-2 gap-1 justify-content-center" style="box-sizing: border-box;">
+                    <span class="rounded bg-brand p-1 text-white">FOLLOW US</span>
+                    <span class="rounded bg-white p-1 text-brand">Media</span>
+                    <span class="rounded bg-white p-1 text-brand">Media</span>
+                    <span class="rounded bg-white p-1 text-brand">Media</span>
+                </div>
+            </div>
+            <div class="row bg-brand d-flex justify-content-center align-items-center" style="height: 40px;">
+                <div class="col-md-3">
+                    <p class="text-white">Copyright by : company name</p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
